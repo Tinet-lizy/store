@@ -8,12 +8,15 @@
 	<packaging>pom</packaging>
 	<version>1.0.0</version>
 	<modules>
-		<module>store-service-auth</module>
+
 		<module>store-eureka</module>
 		<module>store-web-console</module>
-		<module>store-service-auth-api</module>
+
 		<module>store-zuul</module>
+        <module>store-service-auth</module>
+        <module>store-service-auth-api</module>
         <module>store-service-search</module>
+        <module>store-service-search-api</module>
     </modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
