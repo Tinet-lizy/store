@@ -1,4 +1,4 @@
-package monk.zyli.store.auth;
+package monk.zyli.store.search;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,7 +6,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * 权限模块
+ * 搜索模块
  *
  * @author lizy
  * @date: 2018/07/10
