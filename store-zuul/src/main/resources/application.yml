@@ -8,10 +8,10 @@ zuul:
   routes:
     api-a:
       path: /api-console/hi
-      serviceId: service-console
+      serviceId: store-web-console
     api-b:
       path: /api-auth/hi
-      serviceId: service-auth
+      serviceId: store-service-auth
 eureka:
   client:
     serviceUrl:

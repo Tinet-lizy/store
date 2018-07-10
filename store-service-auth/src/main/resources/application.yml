@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: service-auth
+    name: store-service-auth
 eureka:
   client:
     serviceUrl:

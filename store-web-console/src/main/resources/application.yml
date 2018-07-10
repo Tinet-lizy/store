@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: service-console
+    name: store-web-console
   rocketmq:
     namesrv_address: 140.143.12.110:9876
 eureka:
