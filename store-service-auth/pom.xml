@@ -8,7 +8,7 @@
         <artifactId>store</artifactId>
         <version>1.0.0</version>
     </parent>
-    <artifactId>store-auth</artifactId>
+    <artifactId>store-auth-service</artifactId>
 
     <dependencies>
         <dependency>

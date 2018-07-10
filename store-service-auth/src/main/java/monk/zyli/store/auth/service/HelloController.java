@@ -1,4 +1,4 @@
-package monk.zyli.store.auth.controller;
+package monk.zyli.store.auth.service;
 
 import monk.zyli.store.auth.api.HelloApi;
 import org.springframework.beans.factory.annotation.Value;
