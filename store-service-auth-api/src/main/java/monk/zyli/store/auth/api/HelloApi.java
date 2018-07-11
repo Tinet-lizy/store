@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @author lizy
  * @date 2018/06/13
  */
-@FeignClient(name = "service-auth",fallback = HelloApiHystix.class)
+@FeignClient(name = "store-service-auth",fallback = HelloApiHystix.class)
 public interface HelloApi {
 
     @GetMapping("/api-auth/hi")

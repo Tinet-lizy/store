@@ -17,7 +17,7 @@
         </dependency>
         <dependency>
             <groupId>monk.zyli</groupId>
-            <artifactId>store-auth-api</artifactId>
+            <artifactId>store-service-auth-api</artifactId>
             <version>1.0.0</version>
         </dependency>
     </dependencies>

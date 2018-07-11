@@ -31,12 +31,22 @@
         </dependency>
         <dependency>
             <groupId>monk.zyli</groupId>
-            <artifactId>store-auth-api</artifactId>
+            <artifactId>store-service-auth-api</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>monk.zyli</groupId>
+            <artifactId>store-service-search-api</artifactId>
             <version>1.0.0</version>
         </dependency>
         <dependency>
             <groupId>org.apache.rocketmq</groupId>
             <artifactId>rocketmq-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>monk.zyli</groupId>
+            <artifactId>store-service-search</artifactId>
+            <version>1.0.0</version>
         </dependency>
     </dependencies>
 

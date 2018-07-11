@@ -1,0 +1,26 @@
+PUT stores
+{
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 0
+  },
+  "mappings": {
+    "store":{
+      "properties": {
+        "name":{
+          "type": "text"
+        },
+        "description":{
+          "type": "text"
+        },
+        "image_url":{
+          "type": "keyword"
+        },
+        "user_id":{
+          "type": "keyword"
+        }
+      }
+    }
+  }
+
+}

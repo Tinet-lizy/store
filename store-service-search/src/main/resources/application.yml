@@ -4,6 +4,18 @@ server:
 spring:
   application:
     name: store-service-search
+    # Elasticsearch客户端配置
+    elasticsearch:
+      #多个以逗号分开
+      host: 127.0.0.1
+      port: 9200
+      scheme: http
+      socket-timout: 30000
+      connection-timeout: 1500
+      read-timeout: 10000
+      connection-request-timout: 500
+      max-connection-num: 100
+      max-connection-per-route: 100
 eureka:
   client:
     serviceUrl:

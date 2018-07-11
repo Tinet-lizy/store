@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
  * 搜索模块
  *
  * @author lizy
- * @date: 2018/07/10
+ * @date  2018/07/10
  */
 @SpringBootApplication
 @EnableEurekaClient

@@ -1,0 +1,25 @@
+PUT products
+{
+  "settings": {
+    "number_of_replicas": 0
+    , "number_of_shards": 1
+  },
+  "mappings": {
+    "product":{
+      "properties": {
+        "name":{
+          "type": "text"
+        },
+        "description":{
+          "type": "text"
+        },
+        "imageUrls":{
+          "type": "keyword"
+        },
+        "storeId":{
+          "type": "keyword"
+        }
+      }
+    }
+  }
+}
