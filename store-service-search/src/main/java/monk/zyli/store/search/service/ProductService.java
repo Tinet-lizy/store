@@ -1,12 +1,13 @@
 package monk.zyli.store.search.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import monk.zyli.store.auth.api.ProductServiceApi;
-import monk.zyli.store.auth.model.Product;
+import monk.zyli.store.eureka.api.ProductServiceApi;
+import monk.zyli.store.eureka.model.Product;
 import org.elasticsearch.action.bulk.BulkRequest;
 import org.elasticsearch.action.bulk.BulkResponse;
 import org.elasticsearch.action.index.IndexRequest;
 import org.elasticsearch.client.RestHighLevelClient;
+import org.elasticsearch.common.xcontent.XContentType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -31,10 +32,10 @@ public class ProductService implements ProductServiceApi {
     public Integer save(@RequestBody Product product) throws IOException {
         BulkRequest bulkRequest = new BulkRequest();
 
-        IndexRequest indexRequest = new IndexRequest("products");
+        IndexRequest indexRequest = new IndexRequest("products","product");
         String source = objectMapper.writeValueAsString(product);
 
-        indexRequest.source(source);
+        indexRequest.source(source, XContentType.JSON);
         bulkRequest.add(indexRequest);
         BulkResponse response = restHighLevelClient.bulk(bulkRequest);
         System.out.println(response);

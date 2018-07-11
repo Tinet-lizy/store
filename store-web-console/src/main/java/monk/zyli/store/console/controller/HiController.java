@@ -1,8 +1,8 @@
 package monk.zyli.store.console.controller;
 
-import monk.zyli.store.auth.api.HelloApi;
-import monk.zyli.store.auth.api.ProductServiceApi;
-import monk.zyli.store.auth.model.Product;
+import monk.zyli.store.eureka.api.HelloApi;
+import monk.zyli.store.eureka.api.ProductServiceApi;
+import monk.zyli.store.eureka.model.Product;
 import monk.zyli.store.console.service.MqProducerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

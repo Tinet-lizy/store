@@ -1,4 +1,4 @@
-package monk.zyli.store.auth;
+package monk.zyli.store.eureka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -43,11 +43,6 @@
             <groupId>org.apache.rocketmq</groupId>
             <artifactId>rocketmq-client</artifactId>
         </dependency>
-        <dependency>
-            <groupId>monk.zyli</groupId>
-            <artifactId>store-service-search</artifactId>
-            <version>1.0.0</version>
-        </dependency>
     </dependencies>
 
 </project>

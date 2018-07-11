@@ -1,6 +1,6 @@
-package monk.zyli.store.auth.service;
+package monk.zyli.store.eureka.service;
 
-import monk.zyli.store.auth.api.HelloApi;
+import monk.zyli.store.eureka.api.HelloApi;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RestController;
 

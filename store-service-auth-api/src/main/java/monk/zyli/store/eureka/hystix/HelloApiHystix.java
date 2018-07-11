@@ -1,6 +1,6 @@
-package monk.zyli.store.auth.hystix;
+package monk.zyli.store.eureka.hystix;
 
-import monk.zyli.store.auth.api.HelloApi;
+import monk.zyli.store.eureka.api.HelloApi;
 import org.springframework.stereotype.Component;
 
 /**

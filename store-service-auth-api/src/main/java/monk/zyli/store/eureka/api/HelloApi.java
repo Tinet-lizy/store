@@ -1,10 +1,9 @@
-package monk.zyli.store.auth.api;
+package monk.zyli.store.eureka.api;
 
 
-import monk.zyli.store.auth.hystix.HelloApiHystix;
+import monk.zyli.store.eureka.hystix.HelloApiHystix;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 /**

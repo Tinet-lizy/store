@@ -1,4 +1,4 @@
-package monk.zyli.store.auth.model;
+package monk.zyli.store.eureka.model;
 
 /**
  * @author lizy
