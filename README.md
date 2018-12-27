@@ -1,2 +1,2 @@
 # store
-基于spring cloud搞一个小商店
+爸爸在练手，瞅啥瞅
